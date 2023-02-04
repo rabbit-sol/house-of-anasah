@@ -60,7 +60,7 @@ const Mint: NextPage = () => {
         
         if (address) {
 
-            if (verifyproof==true) {
+            if (verifyproof==false) {
                 return (
                     <Web3Button
                         contractAddress={signatureDropAddress}
