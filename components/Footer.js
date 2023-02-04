@@ -94,7 +94,7 @@ const Footer = () => {
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-sm-7">
-                                <p className="mb-0 f_400 f_size_18">&#169; GHOSTLERS Inc. 2022 All rights reserved.</p>
+                                <p className="mb-0 f_400 f_size_18">&#169; House Of Anasah Inc. 2023 All rights reserved.</p>
                                 </div>
                               
                             </div>
