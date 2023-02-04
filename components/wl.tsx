@@ -1,4 +1,4 @@
-export let array = [
+export  let array = [
     "",
     "0x6828c76453ae55acc715b533e07c4fade03f4182",
     "0x6abfe43351d55836fa1eed7b8797d7b48706fdfd",
@@ -2000,3 +2000,8 @@ export let array = [
     "0x7b672bab11fd4c94a3fdc503a58db23c2161e554",
     ""
 ]
+
+
+export default {
+    array,
+}

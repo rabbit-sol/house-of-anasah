@@ -2,7 +2,7 @@ import { ConnectWallet, useAddress, useContract, useContractRead, useContractWri
 import type { NextPage } from "next";
 const { MerkleTree } = require('merkletreejs')
 const keccak256 = require('keccak256')
-import { array } from "./wl"
+import { array } from "../components/wl"
 import { useState, useEffect } from 'react'
 
 

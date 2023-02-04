@@ -1,8 +1,8 @@
 import { ConnectWallet, useAddress, useContract, useContractRead, useContractWrite, Web3Button } from "@thirdweb-dev/react";
 import type { NextPage } from "next";
-const { MerkleTree } = require('merkletreejs')
+
 const keccak256 = require('keccak256')
-import { array } from "./wl"
+
 import { useState, useEffect } from 'react'
 
 
@@ -16,9 +16,7 @@ import Footer from "../components/Footer";
 
 
 const signatureDropAddress = "0xCcf1C51BdE1769820be7B8738DD90F8F2246811b";
-const leaves = array.map(x => keccak256(x))
-const tree = new MerkleTree(leaves, keccak256)
-const root = tree.getRoot().toString('hex')
+
 
 
 const Mint: NextPage = () => {
