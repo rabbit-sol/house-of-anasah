@@ -19,7 +19,7 @@ const signatureDropAddress = "0xCcf1C51BdE1769820be7B8738DD90F8F2246811b";
 
 
 
-const Mint: NextPage = () => {
+const PublicSale: NextPage = () => {
 
     const address = useAddress();
     const [mintPrice, setMintPrice] = useState(0)
@@ -267,4 +267,4 @@ const Mint: NextPage = () => {
 }
 
 
-export default Mint;
+export default PublicSale;
